@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    
     <title>New Fetch App</title>
 </head>
+
 <body>
     <script src="main.js"></script>
-    <textarea id="input"></textarea>
-    <button onclick="please()">Click</button>
-    
+    <div id="container">
+        <h1>Number Facts</h1>
+        <input placeholder="Enter a number" type="number" id="input" min="1" max="9999">
+        <button onclick="pleaseWork()">Click</button>
+        <div id="output"></div>
+
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #0A2647;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+}
+
+h1 {
+    color: #2C74B3;
+    text-align: center;
+}
+
+button, #input {
+    text-align: center;
+    border-style: none; 
+    position: relative;
+    left: 45.4%;
+}
+
+#input {
+width: 110px;
+}
+
+button {
+}
+
+#output {
+    color: #205295;
+    text-align: center;
+    margin-top: 10px;
+}
+
